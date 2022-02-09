@@ -1,0 +1,37 @@
+.box{
+    width: 500px;
+    border: solid 1px rgb(230, 109, 109);
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+p{
+    font-size: 24px;
+}
+
+
+body{
+    text-align: center;
+}
+
+
+.btn{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.btn-cancel:hover span {
+    display: none
+}
+
+.btn-cancel:hover:before{
+    content: 'Đồng ý';
+}
+
+
+  
